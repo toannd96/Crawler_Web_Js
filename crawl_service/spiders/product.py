@@ -9,7 +9,7 @@ class CrawlServiceItem(scrapy.Item):
     image = scrapy.Field()
 
 
-class ProductSpider(scrapy.Spider):
+class WebsosanhSpider(scrapy.Spider):
     name = 'wss'
     allowed_domains = ['websosanh.vn']
 
