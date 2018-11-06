@@ -11,7 +11,7 @@ import scrapy
 class CrawlServiceItem(scrapy.Item):
     #name = scrapy.Field()
     #image = scrapy.Field()
-    price = scrapy.Field()
+    #price = scrapy.Field()
     #short_description = scrapy.Field()
     #full_description = scrapy.Field()
     
