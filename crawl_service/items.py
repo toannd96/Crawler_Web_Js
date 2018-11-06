@@ -9,6 +9,7 @@ import scrapy
 
 
 class CrawlServiceItem(scrapy.Item):
+    pass
     #name = scrapy.Field()
     #image = scrapy.Field()
     #price = scrapy.Field()
