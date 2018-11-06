@@ -19,6 +19,7 @@ class WebsosanhSpider(scrapy.Spider):
         function main(splash)
             local url = splash.args.url
             assert(splash:go(url))
+            assert(splash:wait(0.5))
             assert(splash:runjs("$('.next')[0].click();"))
             return {
                 html = splash:html(),
