@@ -37,4 +37,5 @@ python run.py
 hoặc 
 ```
 scrapy crawl wss 
+scrapy crawl lazada
 ```
