@@ -12,6 +12,7 @@ Dùng Splash với Scrapy để crawl các trang web sử dụng Javascript
 │   └── spiders
 │       ├── __init__.py
 │       └── websosanh.py
+        └── lazada.py
 ├── requirements.txt
 └── scrapy.cfg
 ```
