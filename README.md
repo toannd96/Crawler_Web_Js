@@ -1,6 +1,5 @@
 # Crawler-JS
-Dùng Splash với Scrapy để crawl các trang web sử dụng Javascript
-
+Dùng scrapy-splash kết hợp lua script để crawl các trang web sử dụng Javascript (websosanh)
 ```
 ├── crawl_service
 │   ├── __init__.py
